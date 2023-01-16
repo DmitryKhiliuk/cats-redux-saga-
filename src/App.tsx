@@ -12,6 +12,7 @@ function App() {
         dispatch(getCatsFetch())
     }, [dispatch])
 
+
   return (
     <div className="App">
         <h1>CAT SPECIES GALLERY</h1>
