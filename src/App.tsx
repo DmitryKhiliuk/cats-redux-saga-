@@ -4,7 +4,7 @@ import {getCatsFetch} from "./catState";
 import {useAppDispatch, useAppSelector} from "./index";
 
 function App() {
-
+//app
     const cats = useAppSelector(state => state.catsReducer.cats)
     const dispatch = useAppDispatch()
 
